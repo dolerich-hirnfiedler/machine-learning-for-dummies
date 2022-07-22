@@ -59,7 +59,7 @@ let input = [ 0, 0, 0 ]; // x,y,z
 
 input[0] = entity.position.x / screen.width;
 input[1] = entity.position.y / screen.height;
-input[0] = 0; // we don't have a z position, have we?
+input[2] = 0; // we don't have a z position, have we?
 
 
 let answer = neural_network.compute(input);
